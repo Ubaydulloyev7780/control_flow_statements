@@ -7,4 +7,14 @@
     Returns:
         a: a increased by 1 if positive, else unchanged.
  */
-void main() {}
+ double func(double a){
+    if(a<0){
+        return -a;
+    }
+    else{
+        return a;
+    }
+ }
+void main(){
+    print(func(-23));
+} 
